@@ -14,7 +14,7 @@
         <meta http-equiv="Content-Style-Type" content="text/css" />
 
         <title>
-            K-Sketch: The Kinetic Sketch Pad
+            K-Sketch: The Sketch Pad
         </title>
 
 
