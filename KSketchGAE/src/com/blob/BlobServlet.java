@@ -72,14 +72,14 @@ public class BlobServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        Map<String, List<BlobKey>> blobs = blobstoreService.getUploads(request);
+        /* Map<String, List<BlobKey>> blobs = blobstoreService.getUploads(request);
         BlobKey blobKey = blobs.get("fileData").get(0);
         
         if (blobKey == null) {
             response.sendRedirect("/");
         } else {
             response.sendRedirect("/serve?blob-key=" + blobKey.getKeyString());
-        }
+        }*/
     }
 
     /**
